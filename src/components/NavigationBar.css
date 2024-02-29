@@ -10,11 +10,15 @@
     background: rgb(0,0,0,0);
   }
 
+  .navigation-bar-top.active { 
+    background:  rgb(0,0,0, 0.2);
+  }
+
   .navigation-bar-bottom { 
     list-style-type: none;
     margin: 0;
     padding: 0;
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
     width: 100%;
     background: rgb(0,0,0,0);

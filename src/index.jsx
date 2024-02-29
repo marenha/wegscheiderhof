@@ -9,6 +9,7 @@ import './index.css'
 
 import App from './App.jsx'
 import Impressum from './components/Impressum.jsx'
+import Credits from './components/Credits.jsx';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "/impressum",
     element: < Impressum />
+  },
+  {
+    path: "/credits",
+    element: < Credits />
   }
 ]);
 

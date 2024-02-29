@@ -6,10 +6,10 @@ const NavigationBarBottom = (() => {
     return (
     <div className="navigation-bar-bottom">
         <div className='navigation-item'> 
-            <a href="/licenses.html"> Open source </a>
+            <Link to='credits'> credits </Link>
         </div>
         <div className='navigation-item'> 
-            <Link to='impressum'> Impressum </Link>
+            <Link to='impressum'> impressum </Link>
         </div>
     </div>
     )

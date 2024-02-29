@@ -5,14 +5,14 @@
     min-height: 500px;
     height: 100vh;
   
-    /* Create the parallax scrolling effect */
     /* background-attachment: fixed; */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
 
-.App__inner {
-    height: 100vh;
-    width: 100vw;
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
 }

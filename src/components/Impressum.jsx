@@ -1,8 +1,9 @@
 
+import './Impressum.css'
 
 const Impressum = (() => {
-    return <div>
-        TODO: Impressum
+    return <div id='impressum'>
+        Wegscheiderhof
     </div>
 })
 
